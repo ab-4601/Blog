@@ -86,7 +86,7 @@ class Comments(db.Model):
     author = relationship("User", back_populates="comments")
 
 
-db.create_all()
+# db.create_all()
 
 
 @app.route('/')
